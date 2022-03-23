@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Это моё резюме">
+    <meta name="keywords" content="resume, work, codding">
+    <link rel="stylesheet" href="style.css">
+    <title>Резюме</title>
+</head>
+<body>
+<div class="container">
+<div class="aboutme">
+<img class="avatar" src="avatar.jpg" alt="Моя фотография"/>
+<div class="text">
+ <h1>Владислав Лукашук</h1>  
+ <p class="info">Я работаю таможенным брокером и в будущем планирую стать веб-разработчиком.
+     Люблю автомобили, рыбалку и получать новые знания.</p>
+</div>
+</div>
+  <div class="exp">
+    <h3>Опыт работы</h3>
+    <table class="table">
+    <thead class="hat">
+        <tr>
+            <th>Название</th>
+            <th>Должность</th>
+            <th>Год</th>
+        </tr>
+    </thead>
+    <tbody>
+       <tr>
+           <td>Epsilon</td>
+           <td>Инженер КИПиА</td>
+           <td>2016-2018</td>
+       </tr>
+       <tr>
+           <td>Marema</td>
+           <td>Таможенный брокер</td>
+           <td>2018-сейчас</td>
+       </tr>
+    </tbody>
+    </table>
+   </div>
+ <div class="hobby">
+ <h3>Мои хобби:</h3>
+ <ul class="list">
+     <li>Отдых на природе</li>
+     <li>Баскетбол</li>
+     <li>Компьютерное железо</li>
+ </ul>
+ </div>
+<div class="link">
+    <h3>Список социальных сетей:</h3>
+    <a href="https://www.instagram.com/lukashuk.vlad" target="_blank">Instagram</a>
+    <strong>|</strong>
+    <a href="https://t.me/v_lukashuk" target="_blank">Telegram</a>
+</div>
+ <form class="contact">
+    <h3>Связаться со мной</h3>
+    <div class="namemail">
+    <div class="contact-group"> 
+        <label for="name">Ваше имя:</label>
+        <input type="text" id="name" placeholder="Введите имя">
+    </div>
+    <div class="contact-group"> 
+        <label for="mail">Ваш email:</label>
+        <input type="email" id="mail" placeholder="Введите email">
+    </div>
+    </div>
+    <div class="contact-group"> 
+        <label for="message">Ваше сообщение:</label>
+        <textarea id="message" rows="5" placeholder="Введите сообщение..."></textarea>
+    </div>
+        <input class="btn" type="submit" value="Отправить!">
+        <button class="btn" type="reset">Очистить форму</button>
+ </form>
+</div>
+</body>
+</html>

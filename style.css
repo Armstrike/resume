@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Hurricane&family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Nunito&display=swap');
+body{
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    background: #f1f1f1;
+    color: #000000;
+    }
+    .container{
+        max-width: 750px;
+        padding-top: 20px;
+        margin:auto;
+    }
+    .avatar{
+        display: block;
+        margin: auto;
+        width: 150px;
+        max-width: 100%;
+        border: solid;
+        border-radius: 20px;
+        border-color: rgba(0, 0, 0, 0.479);
+        box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+    }
+    h1, h3{
+    font-style: italic;
+    }
+    h1{
+        font-size: 22px;
+    }
+    .aboutme{
+        display: flex;
+        padding-bottom: 7px;
+    }
+    .text{
+        padding-left: 40px;
+    }
+    .info{
+    font-style: italic;
+    font-size: 15px; 
+    font-weight: bold;
+    color: darkslategrey;
+    letter-spacing: 0.5px;
+    margin: 0;
+    }
+    .hat {
+    color: royalblue;
+    }
+    a{
+    font-family: 'Dancing Script', sans-serif;
+    font-size: 22px; 
+    color: royalblue;  
+    text-decoration: none;
+    }
+    .hobby, .exp, .link, .contact{   
+    background: #ebfeea;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    padding: 15px;
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-top: 1px;
+    }
+    .list{
+        list-style: none;
+        padding: 0px;
+        color: gray;
+    }
+    .btn{
+        background: royalblue;
+        padding: 8px 10px;
+        color: white;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+    .table td{
+        padding-bottom: 5px;
+    }
+    .namemail{
+        display: flex;
+    }
+    .namemail .contact-group{
+        width: 50%;
+    }
+    .contact-group label{
+        display: block;
+        font-size: 15px;
+        color: royalblue;
+        margin-top: 6px;
+    }
+    .contact-group input,
+    .contact-group textarea{
+        width: 100%;
+        box-sizing: border-box;
+        border: none;
+        background: transparent;
+        outline: none;
+        font-size: 14px;
+        padding: 15px 0 10px;
+    }
+    @media (max-width: 650px) {
+        .container{
+            font-size: 1.2rem;
+            padding: 8px;
+            text-align: center;
+        }
+    }
+    /* pseudoselectors */
+    .table td:nth-child(1),
+    .table td:nth-child(2),
+    .table td:nth-child(3){
+    color: grey;
+    }
+    .list li::before{
+        content: "⋟";
+        color: royalblue;
+    }
+    a:hover{
+        color:orangered;
+    }
+    .btn:hover{
+        opacity: 0.8;
+    }
+    .hobby:hover{
+        background: rgba(238, 177, 186, 0.103);
+    }
+    .exp:hover{
+        background: rgba(238, 177, 186, 0.103);
+    }
+    .contact:hover{
+        background: rgba(238, 177, 186, 0.103);
+    }
+    .link:hover{
+        background: rgba(238, 177, 186, 0.103);
+    }
